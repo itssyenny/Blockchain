@@ -18,11 +18,18 @@ BLOCKCHAINS are built from 3 technologies (the Internet, private key cryptograph
 ### New Terms in Bitcoin
 Node / Full node  : A powerful computer that runs the bitcoin software and helps to keep bitcoin running by participating in the relay of information. A node spread Bitcoin around the network. <br />
 Mining            : Process by which transactions are verified & added to the public ledger, known as the blockchain. <br />
-> Every 10 minutes or so, mining computers can collect a few hundred pending bitcoin transactions (a “block”) and turn them into a mathematical puzzle. <br />
-> If a miner mines a new block, they're given a reward in the form of the block reward (coinbase). This is the main incentive for Bitcoin miners, as the block reward is 12.5 BTC. The block reward is halved every 210,000 blocks, which is approximately every 4 years. <br />
+> Every 10 minutes or so, mining computers can collect a few hundred pending bitcoin transactions (a “block”) and turn them into a mathematical puzzle. Unspent transaction outputs (**UTXO**) are important because fully validating **nodes use them to figure out whether or not transactions are valid**– all inputs to a transaction must be in the UTXO database for it to be valid.<br />
+![utxo image](https://github.com/itssyenny/Blockchain/blob/master/utxo.png)<br />
+![satoshis & utxo image](https://github.com/itssyenny/Blockchain/blob/master/satoshis%2Butxo.png) <br />
+
+```
+If a miner mines a new block, they're given a reward in the form of the block reward (coinbase). This is the main incentive for Bitcoin miners, as the block reward is 12.5 BTC. The block reward is halved every 210,000 blocks, which is approximately every 4 years. <br />
+```
 
 Bitcoin Address   : A long string **of 34 letters & numbers** (also known as __public key__). It's ok to be seen by the whole world. <br />
 Private key       : A long string **of 64 letters & numbers**.
+Nonce             : In cryptography, a nonce is an **arbitrary number that can only be used once**.
+                    The _nonce_ in a **bitcoin block** is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros
 
 <br/>
 
@@ -39,8 +46,8 @@ Private key       : A long string **of 64 letters & numbers**.
  > The network is transparant, so the progress of a particular transaction is visible to all.
  4. Immutability : Bitcoin transactions can't be reversed(return money)
  > If a transaction is recoreded on the network & if more than an hour has passed, it is impossible to modify.
- 5. Divisibility : Smallest unit of a bitcoin is called a satoshi, one hundred millionth of a bitcoin (1 x 10^(-8)).
- > Satoshi can conceivably enavle microtransactions that traditional electronic money can't.
+ 5. Divisibility : **Smallest unit of a bitcoin is called a Satoshi, one hundred millionth of a bitcoin (1 x 10^(-8)).
+ > Satoshi can conceivably enavle microtransactions that traditional electronic money can't**.
  
  <br />
  
