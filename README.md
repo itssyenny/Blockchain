@@ -122,3 +122,24 @@ In theory, it combines the control that people had over their information in the
 
 So, in conclusion, Ethereum app is like if you have debt with your mom & due on April 25. Unfortunately, today is already April 25 and you forget to pay your mom. Then, your mom remembers & she request $100 on Ethereum app which on the agreement before, your mom can access your __Ethereum Virtual Machine (EVM, which can execute scripts using an international network of public nodes)__ to pay her $100.
 ![Ethereum App](https://media.coindesk.com/uploads/2017/03/Screen-Shot-2017-03-28-at-4.56.00-PM.png)
+
+<br />
+
+### The DAO
+The best-known attempt at creating such an organization was called _The DAO_.<br />
+The plan was for participants to receive DAO tokens, then vote for which projects to fund. For selecting projects to invest in, it relied on the "wisdom of crowds."
+
+There are a few ways that The DAO intended to improve on the governance of today's organizations:
+ * Anyone with internet access could hold DAO tokens or buy them
+ * DAO creators could set whatever rules they voted on. <br />
+In abstract, DAOs function similarly. They rely on smart contracts, or pre-programmed rules that describe what can happen in the system. <br />
+Essentially, they see it as a way to cryptographically guarantee democracy, where stakeholders can vote on adding new rules, changing the rules, or ousting a member, to name a few examples. <br />
+
+<br />
+
+### What is ICO ?
+ICO stands for _Initial Coin Offering_ & refers to the creation and sale of digital tokens. In an ICO, a project creates a certain amount of a digital token and sells it to the public, usually in exchange for other cryptocurrencies such as bitcoin or ether.
+
+###### Additional info
+Cryptocurrency token offerings is a new fundraising method that allows companies to raise millions of dollars in mere minutes. < br />
+
