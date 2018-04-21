@@ -26,10 +26,19 @@ Mining            : Process by which transactions are verified & added to the pu
 If a miner mines a new block, they're given a reward in the form of the block reward (coinbase). This is the main incentive for Bitcoin miners, as the block reward is 12.5 BTC. The block reward is halved every 210,000 blocks, which is approximately every 4 years. <br />
 ```
 
-Bitcoin Address   : A long string **of 34 letters & numbers** (also known as __public key__). It's ok to be seen by the whole world. <br />
-Private key       : A long string **of 64 letters & numbers**.
-Nonce             : In cryptography, a nonce is an **arbitrary number that can only be used once**.
-                    The _nonce_ in a **bitcoin block** is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros
+Bitcoin Address     : A long string **of 34 letters & numbers** (also known as __public key__). It's ok to be seen by the whole world. <br />
+Private key         : A long string **of 64 letters & numbers**. <br />
+Nonce               : In cryptography, a nonce is an **arbitrary number that can only be used once**. <br />
+                    The _nonce_ in a **bitcoin block** is a 32-bit (4-byte) field whose value is set so that the hash of the block will contain a run of leading zeros  <br />
+Proof-of-Work (PoW) system : The most popular algorithm being used by currencies such as Bitcoin and Ethereum, each one with its own differences.
+
+```
+Example:
+keccak256("hello") = 1c8aff950685c2ed4bc3174f3472287b56d9517b9c948127319a09a7a36deac8
+keccak256("hello1") = 57c65f1718e8297f4048beff2419e134656b7a856872b27ad77846e395f13ffe
+```
+In Proof of Work, in order for an actor to be elected as a leader and choose the next block to be added to the blockchain they have to find a solution to a particular mathematical problem. <br />
+Whenever a new block is mined, that miner gets rewarded with some currency (block reward, transaction fees) and thus are incentivized to keep mining. In Proof of Work, other nodes verify the validity of the block by checking that the hash of the data of the block is less than a preset number. <br />
 
 <br/>
 
@@ -152,4 +161,13 @@ ICO stands for _Initial Coin Offering_ & refers to the creation and sale of digi
 
 ###### Additional info
 Cryptocurrency token offerings is a new fundraising method that allows companies to raise millions of dollars in mere minutes. <br />
+
+
+### The difference between Blockchain and Cryptocurrency
+| Blockchain | Cryptocurrency |
+| ---------- | -------------- |
+|signed,P2P,distributed ledger databases | digital asset that can be an exchange medium (these days, ~ tends to be implemented using a blockchain | 
+
+Most of crytocurrency systems use a proof-of-work scheme to create a new block or Bitcoin. Bitcoin uses a proof-of-work schemes that are based on SHA-256. <br />
+
 
