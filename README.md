@@ -1,8 +1,9 @@
 # New Terms in Bitcoin
 Node / Full node  : A powerful computer that runs the bitcoin software and helps to keep bitcoin running by participating in the relay of information. A node spread Bitcoin around the network. <br />
-Mining            : Process by which transactions are verified and added to the public ledger, known as the blockchain. <br />
+Mining            : Process by which transactions are verified & added to the public ledger, known as the blockchain. <br />
 > Every 10 minutes or so, mining computers can collect a few hundred pending bitcoin transactions (a “block”) and turn them into a mathematical puzzle. <br />
-> The miner who find the solution will get 25 bitcoins as a reward, but only after another 99 blocks have been added to the ledger. <br />
+> If a miner mines a new block, they're given a reward in the form of the block reward (coinbase). This is the main incentive for Bitcoin miners, as the block reward is 12.5 BTC. The block reward is halved every 210,000 blocks, which is approximately every 4 years. <br />
+
 Bitcoin Address   : A long string **of 34 letters & numbers** (also known as __public key__). It's ok to be seen by the whole world. <br />
 Private key       : A long string **of 64 letters & numbers**.
 
@@ -56,4 +57,8 @@ Miners group outstanding transactions into blocks and add them to the blockchain
 How do they do this? <br />
   > By solving a complex mathematical puzzle(part of the bitcoin program) & including the answer in the block. The puzzle that needs solving is to find a number that, when combined with the data in the block and passed through a hash function, produces a result that is within a certain range. This is much harder than it sounds.
 
- 
+##### How are Bitcoin Mining Pools ?
+Question : Do I need to mine solo or join a pool ? <br />
+
+Going solo means that you don't need to share your reward __(your full block reward, 25 XBTC)__. But, your odds of getting a reward are also __decreased__. <br />
+Whereas a pool has __a much larger chance__ of solving a block & winning the reward (reward will be splitted between all the pool members). Therefore, joining a pool will create a steady stream of income 
