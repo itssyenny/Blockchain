@@ -3,7 +3,7 @@
 A blockchain is a decentralized, distributed and public digital ledger that is used to record transactions across many computers so that the record cannot be altered retroactively without the alteration of all subsequent blocks and the collusion of the network, by using cryptography and a computer network to : <br />
  * track assets;
  * secure the ledger from tampering (4D). <br />
-![Blockchain Structure](https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Bitcoin_Block_Data.svg/1200px-Bitcoin_Block_Data.svg.png)
+![Blockchain Structure]https://blockgeeks.com/wp-content/uploads/2017/08/image4.png)
 
 BLOCKCHAINS are built from 3 technologies (the Internet, private key cryptography, & protocol governing incentivization) <br />
 
