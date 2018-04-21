@@ -141,5 +141,5 @@ Essentially, they see it as a way to cryptographically guarantee democracy, wher
 ICO stands for _Initial Coin Offering_ & refers to the creation and sale of digital tokens. In an ICO, a project creates a certain amount of a digital token and sells it to the public, usually in exchange for other cryptocurrencies such as bitcoin or ether.
 
 ###### Additional info
-Cryptocurrency token offerings is a new fundraising method that allows companies to raise millions of dollars in mere minutes. < br />
+Cryptocurrency token offerings is a new fundraising method that allows companies to raise millions of dollars in mere minutes. <br />
 
