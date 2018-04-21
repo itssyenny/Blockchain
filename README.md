@@ -14,6 +14,10 @@ BLOCKCHAINS are built from 3 technologies (the Internet, private key cryptograph
 
 ![Blockchain](https://blockgeeks.com/wp-content/uploads/2016/09/infographics0517-01-1.png) <br />
 <br />
+
+### Blockchain Ecosystem : Virtuous Cycle !
+![Blockchain Ecosystem](https://github.com/itssyenny/Blockchain/blob/master/blockchain_ecosystem.png)
+<br />
 # Bitcoin
 ### New Terms in Bitcoin
 Node / Full node  : A powerful computer that runs the bitcoin software and helps to keep bitcoin running by participating in the relay of information. A node spread Bitcoin around the network. <br />
