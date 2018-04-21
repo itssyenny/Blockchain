@@ -4,7 +4,6 @@ A blockchain is a decentralized, distributed and public digital ledger that is u
  * track assets;
  * secure the ledger from tampering (4D). <br />
  <br />
- <br />
 ![Blockchain Structure](https://blockgeeks.com/wp-content/uploads/2017/08/image4.png)
 
 BLOCKCHAINS are built from 3 technologies (the Internet, private key cryptography, & protocol governing incentivization) <br />
