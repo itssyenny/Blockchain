@@ -138,6 +138,7 @@ Essentially, they see it as a way to cryptographically guarantee democracy, wher
 <br />
 
 ### What is ICO ?
+### Refers to distribution of digital tokens
 ICO stands for _Initial Coin Offering_ & refers to the creation and sale of digital tokens. In an ICO, a project creates a certain amount of a digital token and sells it to the public, usually in exchange for other cryptocurrencies such as bitcoin or ether.
 
 ###### Additional info
